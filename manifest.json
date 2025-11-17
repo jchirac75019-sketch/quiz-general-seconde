@@ -42,13 +42,13 @@
     {
       "src": "/quiz-general-seconde/images/screenshot-1.png",
       "type": "image/png",
-      "sizes": "540x720",
+      "sizes": "16x16",
       "form_factor": "narrow"
     },
     {
       "src": "/quiz-general-seconde/images/screenshot-2.png",
       "type": "image/png",
-      "sizes": "720x540",
+      "sizes": "32x32",
       "form_factor": "wide"
     }
   ],
