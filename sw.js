@@ -21,16 +21,16 @@ const CACHE_NAME = 'quiz-cache-v27';
  * 💡 NOTE: Les icônes et screenshots sont inclus pour installation desktop
  *          Les librairies externes (CDN) sont en network-first
  */
+const BASE_PATH = '/quiz-general-seconde';
+
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/style.css',
-    '/app.js',
-    '/images/icon-192.png',
-    '/images/icon-512.png',
-    '/images/screenshot-1.png',
-    '/images/screenshot-2.png'
+  BASE_PATH + '/',
+  BASE_PATH + '/index.html',
+  BASE_PATH + '/style.css',
+  BASE_PATH + '/app.js',
+  BASE_PATH + '/manifest.json',
+  BASE_PATH + '/images/icon-192.png',
+  BASE_PATH + '/images/icon-512.png'
 ];
 
 /* ========== ÉVÉNEMENT INSTALL - INSTALLATION EVENT ==========
